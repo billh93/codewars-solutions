@@ -4,6 +4,9 @@
 This repo contains solutions and explanations to problems from 8 kyu all the way
 to 1 kyu.
 
+## Contribution
+If you'd like to contribute to codewars-solutions please fork, fix, commit and send a pull request. Commits who do not comply with the coding standards are ignored.
+
 ## Notes:
 This guide is strictly used to get a better grasp and fundamental idea on why
 the answer is what it is with comments detailing each section of the code. You
