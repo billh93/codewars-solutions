@@ -29,3 +29,15 @@
     // join() reverts array back to a string data type.
     const nameShuffler = (str) => str.split(" ").reverse().join(' ');
 /********* End of 'Name Shuffler' *********/
+
+/********* Start of 'Grasshopper - Terminal Game Turn Function' *********/
+    doTurn = () => [rollDice, move, combat, getCoins, buyHealth, printStatus].forEach(e => e());
+/********* End of 'Grasshopper - Terminal Game Turn Function' *********/
+
+/********* Start of 'Sentence Smash' *********/
+    let smash = words => words.join(" ");
+/********* End of 'Sentence Smash' *********/
+
+/********* Start of 'Remove String Spaces' *********/
+    let noSpace = x => x.split(" ").join("");
+/********* End of 'Remove String Spaces' *********/
