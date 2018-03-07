@@ -8,6 +8,34 @@
     const multiply = (a, b) => a * b; // Arrow Function is being used
 /********* End of 'Multiply' *********/
 
+/********* Start of 'Even or Odd' *********/
+    const even_or_odd = (number) => number % 2 == 0 ? "Even" : "Odd";
+/********* End of 'Even or Odd' *********/
+
+/********* Start of 'Grasshopper - Summation' *********/
+    const summation = n => n * (n+1) / 2;
+/********* End of 'Grasshopper - Summation' *********/
+
+/********* Start of 'You only need one - Beginner' *********/
+    const check = (a,x) => a.includes(x);
+/********* End of 'You only need one - Beginner' *********/
+
+/********* Start of 'Grasshopper - Terminal Game #1' *********/
+    class Hero {
+      constructor(name) {
+        this.name = name || 'Hero';
+        this.position = '00';
+        this.health = 100;
+        this.damage = 5;
+        this.experience = 0;
+      }
+    }
+/********* End of 'Grasshopper - Terminal Game #1' *********/
+
+/********* Start of 'Third Angle of a Triangle' *********/
+    const otherAngle = (a, b) => 180 - a - b;
+/********* End of 'Third Angle of a Triangle' *********/
+
 /********* Start of 'Barking Made' *********/
     // ES6 is being used
     class Dog {
@@ -47,22 +75,6 @@
 /********* Start of 'Remove String Spaces' *********/
     const noSpace = x => x.split(" ").join("");
 /********* End of 'Remove String Spaces' *********/
-
-/********* Start of 'Grasshopper - Summation' *********/
-    const summation = n => n * (n+1) / 2;
-/********* End of 'Grasshopper - Summation' *********/
-
-/********* Start of 'Grasshopper - Terminal Game #1' *********/
-    class Hero {
-      constructor(name) {
-        this.name = name || 'Hero';
-        this.position = '00';
-        this.health = 100;
-        this.damage = 5;
-        this.experience = 0;
-      }
-    }
-/********* End of 'Grasshopper - Terminal Game #1' *********/
 
 /********* Start of 'Calculate BMI' *********/
     const bmi = (w, h, bmi = w/h/h) =>  bmi <= 18.5 ? "Underweight" :
