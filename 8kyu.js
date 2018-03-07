@@ -1,5 +1,11 @@
+/********* Start of 'Basic variable assignment' *********/
+    let a = "code",
+        b = "wa.rs",
+        name = a + b;
+/********* End of 'Basic variable assignment' *********/
+
 /********* Start of 'Multiply' *********/
-    multiply = (a, b) => a * b; // Arrow Function is being used
+    const multiply = (a, b) => a * b; // Arrow Function is being used
 /********* End of 'Multiply' *********/
 
 /********* Start of 'Barking Made' *********/
@@ -31,13 +37,39 @@
 /********* End of 'Name Shuffler' *********/
 
 /********* Start of 'Grasshopper - Terminal Game Turn Function' *********/
-    doTurn = () => [rollDice, move, combat, getCoins, buyHealth, printStatus].forEach(e => e());
+    const doTurn = () => [rollDice, move, combat, getCoins, buyHealth, printStatus].forEach(e => e());
 /********* End of 'Grasshopper - Terminal Game Turn Function' *********/
 
 /********* Start of 'Sentence Smash' *********/
-    let smash = words => words.join(" ");
+    const smash = words => words.join(" ");
 /********* End of 'Sentence Smash' *********/
 
 /********* Start of 'Remove String Spaces' *********/
-    let noSpace = x => x.split(" ").join("");
+    const noSpace = x => x.split(" ").join("");
 /********* End of 'Remove String Spaces' *********/
+
+/********* Start of 'Grasshopper - Summation' *********/
+    const summation = n => n * (n+1) / 2;
+/********* End of 'Grasshopper - Summation' *********/
+
+/********* Start of 'Grasshopper - Terminal Game #1' *********/
+    class Hero {
+      constructor(name) {
+        this.name = name || 'Hero';
+        this.position = '00';
+        this.health = 100;
+        this.damage = 5;
+        this.experience = 0;
+      }
+    }
+/********* End of 'Grasshopper - Terminal Game #1' *********/
+
+/********* Start of 'Calculate BMI' *********/
+    const bmi = (w, h, bmi = w/h/h) =>  bmi <= 18.5 ? "Underweight" :
+                                        bmi <= 25 ? "Normal" :
+                                        bmi <= 30 ? "Overweight" : "Obese";
+/********* End of 'Calculate BMI' *********/
+
+/********* Start of 'Difference of Volumes of Cuboids' *********/
+    const findDifference = ([a,b,c], [d,e,f]) => { return Math.abs(a*b*c-d*e*f); }
+/********* End of 'Difference of Volumes of Cuboids' *********/
